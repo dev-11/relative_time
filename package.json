@@ -1,0 +1,17 @@
+{
+    "name": "@masterbranch_io/relative_time",
+    "version": "0.0.1",
+    "description": "A smarter time display",
+    "license": "MIT",
+    "repository": "dev-11/relative_time",
+    "main": "index.js",
+    "keywords": [
+      "masterbranch",
+      "masterbranch_io",
+      "time",
+      "relative",
+      "relativetime",
+      "relative_time"
+    ]
+  }
+  
