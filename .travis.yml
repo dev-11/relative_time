@@ -12,8 +12,8 @@ cache:
     - node_modules
 
 script:
-  - npm run build
-  - npm run test:unit
+  # - npm run build
+  - npm run test
 
 after_success:
   - codecov
