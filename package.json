@@ -1,4 +1,10 @@
 {
+  "name": "@masterbranch.io/relative-time",
+  "version": "0.0.1",
+  "description": "relative time package",
+  "main": "src/index.js",
+  "author": "",
+  "license": "MIT",
   "scripts": {
     "test": "jest"
   },
