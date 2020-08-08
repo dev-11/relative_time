@@ -17,5 +17,5 @@ script:
 
 after_success:
   - codecov
-  - cat coverage/lcov.info | codacy-coverage
+  # - cat coverage/lcov.info | codacy-coverage
 
