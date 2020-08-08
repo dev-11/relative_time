@@ -1,5 +1,5 @@
 {
-  "name": "@masterbranch.io/relative-time",
+  "name": "@dev-11/relative-time",
   "version": "0.0.1",
   "description": "relative time package",
   "main": "src/index.js",
