@@ -5,6 +5,9 @@
   "main": "src/index.js",
   "author": "",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest"
   },
