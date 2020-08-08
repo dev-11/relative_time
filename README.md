@@ -1,6 +1,6 @@
 # relative_time
 
-[![npm version](https://badge.fury.io/js/%40dev-11%2Frelative-time.svg)](https://badge.fury.io/js/%40dev-11%2Frelative-time)
+![npm (scoped)](https://img.shields.io/npm/v/@dev-11/relative-time)
 
 [![Build Status](https://travis-ci.org/dev-11/relative_time.svg?branch=master)](https://travis-ci.org/dev-11/relative_time)
 [![codecov](https://codecov.io/gh/dev-11/relative_time/branch/master/graph/badge.svg)](https://codecov.io/gh/dev-11/relative_time)
