@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+ - "node"
+
+before_install:
+  - npm i -g codacy-coverage
+  - npm i -g codecov
+
+cache:
+  directories:
+    - node_modules
+
+script:
+  - npm run build
+  - npm run test:unit
+
+after_success:
+  - codecov
+  - cat coverage/lcov.info | codacy-coverage
+
