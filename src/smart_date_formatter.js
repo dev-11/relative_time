@@ -1,7 +1,7 @@
 import "./constants";
 import { get_formatters } from "./formatters_factory";
 
-module.exports = function (date) {
+function get_smart_date(date) {
     let now = new Date(Date.now()); // to make it testable
     now.setHours(0,0,0,0);
     let formatters = get_formatters(now, date);
@@ -23,3 +23,6 @@ module.exports = function (date) {
 
     return prefix + " "+formatter.get_range_name();
 }
+
+module.exports = get_smart_date;
+
