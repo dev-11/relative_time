@@ -24,6 +24,5 @@ function get_smart_date(date) {
     return prefix + " "+formatter.get_range_name();
 }
 
-export {
-    get_smart_date
-};
+module.exports = get_smart_date;
+

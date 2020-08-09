@@ -1,6 +1,6 @@
 {
   "name": "@dev-11/relative-time",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "relative time package",
   "main": "src/smart_date_formatter.js",
   "author": "",
