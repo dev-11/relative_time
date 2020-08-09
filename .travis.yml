@@ -19,8 +19,8 @@ after_success:
   - codecov
   - cat coverage/lcov.info | codacy-coverage
 
-before_deploy:
-  - cd dist
+# before_deploy:
+#   - cd dist
 
 deploy:
   provider: npm
