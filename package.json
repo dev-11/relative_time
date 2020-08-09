@@ -1,8 +1,8 @@
 {
   "name": "@dev-11/relative-time",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "relative time package",
-  "main": "src/index.js",
+  "main": "src/smart_date_formatter.js",
   "author": "",
   "license": "MIT",
   "publishConfig": {
