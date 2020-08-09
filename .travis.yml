@@ -12,12 +12,15 @@ cache:
     - node_modules
 
 script:
-  # - npm run build
+  - npm run build
   - npm run test
 
 after_success:
   - codecov
   - cat coverage/lcov.info | codacy-coverage
+
+before_deploy:
+  - cd dist
 
 deploy:
   provider: npm
